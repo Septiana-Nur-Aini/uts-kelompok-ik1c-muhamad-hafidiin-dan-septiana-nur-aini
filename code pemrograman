@@ -32,3 +32,38 @@ class Brand:
          #harga brand enam kali lipat
         print("Harga enam kali lipat :", self.harga*6)
         print("----------------")
+#harga setiap brand
+brand1 = Brand("Bebelac",   61000)
+brand2 = Brand("SGM",       90000)
+brand3 = Brand("Nutribaby", 70000)
+brand4 = Brand("Zee",       54000)
+brand5 = Brand("Frisolac",  150000)
+brand6 = Brand("Lactogen",  55000)
+brand7 = Brand("Dancow",    78000)
+brand8 = Brand("Hilo",      65000)
+brand9 = Brand("Boneeto",   68000)
+brand10 = Brand("Enfamil",  65000)
+
+
+#Membuat objek pertama dari brand susu
+brand1.tampilkan_profil()
+#Membuat objek kedua dari brand susu
+brand2.tampilkan_profil()
+#Membuat objek ketiga dari brand susu
+brand3.tampilkan_profil()
+#Membuat objek keempat dari brand susu
+brand4.tampilkan_profil()
+#Membuat objek kelima dari brand susu
+brand5.tampilkan_profil()
+#Membuat objek keenam dari brand susu
+brand6.tampilkan_profil()
+#Membuat objek ketujuh dari brand susu
+brand7.tampilkan_profil()
+#Membuat objek kedelapan dari brand susu
+brand8.tampilkan_profil()
+#Membuat objek kesembilan dari brand susu
+brand9.tampilkan_profil()
+#Membuat objek kesepuluh dari brand susu
+brand10.tampilkan_profil()
+
+print("Total brand :",Brand.jumlah_brand)
