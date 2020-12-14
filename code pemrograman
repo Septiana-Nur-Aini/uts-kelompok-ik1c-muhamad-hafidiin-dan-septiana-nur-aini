@@ -1,0 +1,34 @@
+#Septiana Nur Aini_33420221
+#Muhamad hafidiin_33420216
+#IK-1C
+
+#MEMBUAT PROGRAM DAFTAR HARGA BRAND SUSU
+
+class Brand:
+    '''Dasar kelas untuk semua '''
+    jumlah_brand = 0
+    
+    #input nama pendata
+    #input tanggal pendataan
+    nama = input("Nama Pendata :")
+    tanggal = input("Tanggal Pendataan :")
+    
+    def __init__(self, brand, harga):
+        self.brand = brand
+        self.harga = harga
+        Brand.jumlah_brand += 1
+        
+    def tampilkan_jumlah(self):
+        print("Total brand :", Brand.jumlah_brand)
+        
+    def tampilkan_profil(self):
+        print("---BRAND SUSU---")
+        print("Brand :", self.brand)
+        print("Harga :", self.harga)
+        #harga brand dua kali lipat
+        print("Harga dua kali lipat :", self.harga*2)
+         #harga brand empat kali lipat
+        print("Harga empat kali lipat :", self.harga*4)
+         #harga brand enam kali lipat
+        print("Harga enam kali lipat :", self.harga*6)
+        print("----------------")
